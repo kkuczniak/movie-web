@@ -34,7 +34,7 @@ const Home = ({
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Sidebar />
-      <main className='flex w-full h-full'>
+      <main className='flex w-5/6 h-full'>
         <div className='gridTemplate w-full'>
           <div className='banner w-full h-1/2 '>
             <Banner netflixOriginals={netflixOriginals} />

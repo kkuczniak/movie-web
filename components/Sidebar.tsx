@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Sidebar() {
   return (
-    <nav className='bg-CustomDark h-screen top-0 left-0 w-1/5 flex flex-col '>
+    <nav className='bg-[#1a1a1a] h-screen top-0 left-0 w-1/6 flex flex-col '>
       <div className='logo flex items-center justify-center'>
         <Image
           src='/logo.png'
@@ -11,7 +11,7 @@ export default function Sidebar() {
           width={200}
           height={200}
           layout='fixed'
-          className='mx-auto'
+          className='mx-auto rounded-full'
         />
       </div>
 
